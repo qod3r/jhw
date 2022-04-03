@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane prefHeight="610.0" prefWidth="460.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="calculator.viewmodel.ViewModel">
+   <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="488.0"
+         prefWidth="360.0" xmlns="http://javafx.com/javafx/null" xmlns:fx="http://javafx.com/fxml/1">
+      <Label fx:id="res" alignment="CENTER_RIGHT" layoutX="14.0" prefHeight="147.0" prefWidth="332.0">
+         <font>
+            <Font size="30.0"/>
+         </font>
+      </Label>
+      <Button fx:id="btn7" layoutX="14.0" layoutY="213.0" mnemonicParsing="false" onMouseClicked="#onClickNum"
+              prefHeight="66.0" prefWidth="82.0" text="7"/>
+      <Button fx:id="btn8" layoutX="96.0" layoutY="213.0" mnemonicParsing="false" onMouseClicked="#onClickNum"
+              prefHeight="66.0" prefWidth="82.0" text="8"/>
+      <Button fx:id="btn9" layoutX="178.0" layoutY="213.0" mnemonicParsing="false" onMouseClicked="#onClickNum"
+              prefHeight="66.0" prefWidth="82.0" text="9"/>
+      <Button fx:id="btn4" layoutX="14.0" layoutY="279.0" mnemonicParsing="false" onMouseClicked="#onClickNum"
+              prefHeight="66.0" prefWidth="82.0" text="4"/>
+      <Button fx:id="btn5" layoutX="96.0" layoutY="279.0" mnemonicParsing="false" onMouseClicked="#onClickNum"
+              prefHeight="66.0" prefWidth="82.0" text="5"/>
+      <Button fx:id="btn6" layoutX="178.0" layoutY="279.0" mnemonicParsing="false" onMouseClicked="#onClickNum"
+              prefHeight="66.0" prefWidth="82.0" text="6"/>
+      <Button fx:id="btn1" layoutX="14.0" layoutY="345.0" mnemonicParsing="false" onMouseClicked="#onClickNum"
+              prefHeight="66.0" prefWidth="82.0" text="1"/>
+      <Button fx:id="btn0" layoutX="14.0" layoutY="411.0" mnemonicParsing="false" onMouseClicked="#onClickNum"
+              prefHeight="66.0" prefWidth="164.0" text="0"/>
+      <Button fx:id="btn3" layoutX="178.0" layoutY="345.0" mnemonicParsing="false" onMouseClicked="#onClickNum"
+              prefHeight="66.0" prefWidth="82.0" text="3"/>
+      <Button fx:id="btn2" layoutX="96.0" layoutY="345.0" mnemonicParsing="false" onMouseClicked="#onClickNum"
+              prefHeight="66.0" prefWidth="82.0" text="2"/>
+      <Button fx:id="btnX" layoutX="264.0" layoutY="213.0" mnemonicParsing="false" onMouseClicked="#onClickOp"
+              prefHeight="66.0" prefWidth="82.0" text="x">
+         <font>
+            <Font size="30.0"/>
+         </font>
+      </Button>
+      <Button fx:id="btnMinus" layoutX="264.0" layoutY="279.0" mnemonicParsing="false" onMouseClicked="#onClickOp"
+              prefHeight="66.0" prefWidth="82.0" text="-">
+         <font>
+            <Font name="System Bold" size="30.0"/>
+         </font>
+      </Button>
+      <Button fx:id="btnPlus" layoutX="264.0" layoutY="345.0" mnemonicParsing="false" onMouseClicked="#onClickOp"
+              prefHeight="66.0" prefWidth="82.0" text="+">
+         <font>
+            <Font size="30.0"/>
+         </font>
+      </Button>
+      <Button fx:id="btnEquals" layoutX="264.0" layoutY="411.0" mnemonicParsing="false" onMouseClicked="#onClickOp"
+              prefHeight="66.0" prefWidth="82.0" text="=">
+         <font>
+            <Font size="30.0"/>
+         </font>
+      </Button>
+      <Button fx:id="btnComma" layoutX="178.0" layoutY="411.0" mnemonicParsing="false" onMouseClicked="#onClickOp"
+              prefHeight="66.0" prefWidth="82.0" text=",">
+         <font>
+            <Font size="30.0"/>
+         </font>
+      </Button>
+      <Button fx:id="btnSlash" layoutX="264.0" layoutY="147.0" mnemonicParsing="false" onMouseClicked="#onClickOp"
+              prefHeight="66.0" prefWidth="82.0" text="/">
+         <font>
+            <Font size="30.0"/>
+         </font>
+      </Button>
+      <Button fx:id="btnClear" layoutX="14.0" layoutY="147.0" mnemonicParsing="false" onMouseClicked="#onClickOp"
+              prefHeight="66.0" prefWidth="246.0" text="c">
+         <font>
+            <Font size="30.0"/>
+         </font>
+      </Button>
+   </Pane>
+</AnchorPane>
